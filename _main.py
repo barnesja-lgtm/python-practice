@@ -10,6 +10,11 @@ print(5!=6)
 print('hello'!= 'hi')
 print(5=='5')"""
 
-if 5 < 10 :
+"""if 5 < 10 :
     print ("hello")
-print ("good bye")
+print ("good bye")"""
+
+if 5<10:
+    print ("less than ten")
+else: 
+    print ("ten or more")

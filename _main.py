@@ -14,7 +14,12 @@ print(5=='5')"""
     print ("hello")
 print ("good bye")"""
 
-if 5<10:
+"""if 5<10:
     print ("less than ten")
 else: 
-    print ("ten or more")
+    print ("ten or more")"""
+
+print ('HELLO'.lower())
+
+if 'HELLO'.lower() == 'hello' :
+    print ("the same")

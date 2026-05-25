@@ -8,26 +8,33 @@
 # 3 questions and 4 animals.
 
 
-# Ask your user a question about themselves, giving them 2 options
-First_question = input ("Do you prefere to spend time alone or with people? ")
+print ("Do you prefere to spend time alone or with people? ") 
+print ("A= Alone B= with people")
+First_question = input ("A or B")
 # Check if they picked the first option
-if First_question = ("Alone","alone") :
-    # Ask the next question
+if First_question in ("A","a") :
     
-    # Check if they picked the first option
-
-        # Tell them they're animal 1
-
-    # Otherwise
-
-        # Tell them they're animal 2
-
-# Otherwise
-
     # Ask the next question
+    print ("do you prefer to inside or outside")
+    print ("A= inside B= outside")
 
+    Secound_question = input ("A or B")
+    # Check if they picked the first option 
+    if Secound_question in ("a","A") :
+        # Tell them they're animal 1
+        print ("you are a Spider!")
+    # Otherwise
+    if Secound_question in ("B","b") :
+        # Tell them they're animal 2
+        print ("you are a Cat!")
+# Otherwise
+if First_question in ("B","b") :
+    # Ask the next question
+    print ("do you prefer the night or day")
+    print ("A= night B= day")
+    Secound_question_alt = input 
     # Check if they picked the first option
-
+    
         # Tell them they're animal 3
 
     # Otherwise

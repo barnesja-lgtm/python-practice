@@ -4,16 +4,16 @@
 # Get input (first, last, id) and save in variables
 
 first_name = input ("enter First name ")
-print (first_name)
+# print (first_name)
 last_name = input ("enter Last name")
-print (last_name)
+# print (last_name)
 id = input ("enter a random number")
-id = str(id)
-print (id)
+id = int(id)
+# print (id)
 
 # Strip input to remove accidental spaces and turn names into lowercase (resave in variables)
 
-print ((first_name + last_name + id + "@fake.school.nz").strip())
+print ((first_name + last_name + str(id) + "@fake.school.nz").strip())
 
 
 # Output the final email address
@@ -24,7 +24,8 @@ print ((first_name + last_name + id + "@fake.school.nz").strip())
 # EXTENSION
 # Create a temporary password to output as well
 # It should be their names in all uppercase and their id divided by 10
-
+print("Your password is...")
+print(last_name+str(id/10)+first_name)
 # --------------------------------
 
 # EXPERT

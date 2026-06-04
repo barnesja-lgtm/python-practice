@@ -19,7 +19,14 @@ print ("good bye")"""
 else: 
     print ("ten or more")"""
 
-print ('HELLO'.lower())
+"""print ('HELLO'.lower())
 
 if 'HELLO'.lower() == 'hello' :
-    print ("the same")
+    print ("the same")"""
+
+guess = input("whats the password?")
+print("checking password is a match...")
+while guess != 'secret' :
+    guess = input('Try again')
+    print("Checking password is a match...")
+input("welcome")

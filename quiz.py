@@ -1,5 +1,6 @@
 firstanswer = ""
 secoundanswer = ""
+thirdanswer = ""
 while firstanswer != 0:
     print("what is the most flamable gas?\nA: Hydrogen\nB: Nitrogen\nC: Neon")
     firstanswer = input("Answer: ").upper()
@@ -12,6 +13,8 @@ while firstanswer != 0:
             if secoundanswer == "C" :
                 print("correct")
                 secoundanswer = 0
+                while thirdanswer != 0:
+                    print("third ")
             else:
                 print("incorrect")
     else:

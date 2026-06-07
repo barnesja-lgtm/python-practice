@@ -24,9 +24,16 @@ else:
 if 'HELLO'.lower() == 'hello' :
     print ("the same")"""
 
-guess = input("whats the password?")
+"""guess = input("whats the password?")
 print("checking password is a match...")
 while guess != 'secret' :
     guess = input('Try again')
     print("Checking password is a match...")
-input("welcome")
+input("welcome")"""
+
+user_input = input()
+try:
+    num = int(user_input)
+    print (f'You picked {num}')
+except:
+    print(f'{user_input} is not a number')

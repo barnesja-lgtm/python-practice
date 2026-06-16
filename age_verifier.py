@@ -8,18 +8,19 @@
 # TODO Create a variable for valid input and set it to false
 valid_input = False
 # GET INPUT
-age= input('how old are you?')
+
 # TODO Start a loop while the input is invalid
 while valid_input == False :
     
 
     # TODO Ask the user for their age and save it
-
+    age= input('how old are you?')
     #TRY
+
     # TODO Create a try statement
         # TODO Change the input into an integer and resave it
         # TODO Set the valid input variable to true
-
+    valid_input = True
     # FAIL TO CONVERT TO INTEGER
     # TODO Add an except statement
     # TODO Tell the user their input was invalid

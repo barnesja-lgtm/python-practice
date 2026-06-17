@@ -12,6 +12,8 @@ import random
 #       8-ball answers (strings). There should be positive answers, negative answers and neutral answers.
 #       Examples: "Yes, definitely!", "Ask again later.", "Outlook not so good."
 responses = ["maybe",'totaly',"definatly",'yup','i guess',"I'm not sure","seek help","in my profensional opion no","that's just a waste of time","your a horrible person for thinking that's a remotely good idea to ask that question","I dont know","just flip a coin"]
+rare_respones = ["this convisationis boring ask again later","no.","your better off without that infomation"]
+really_rare_respones = ["why.","just please stop asking questions","give up hope","ask again later"]
 infinite = ''
 # MAIN LOOP
 # TODO Create an infinite loop
@@ -33,8 +35,13 @@ while infinite != 'quit' :
     #       (Remember: If a list has 5 items, the indexes are 0, 1, 2, 3, 4).
     #       Use random.randint() to get a number between 0 and that last index.
     #       Save it in a variable called 'random_index'.
-    
-    print(random.choice(responses))
+    what_type_of_rarity = random.random()
+    if what_type_of_rarity <= 0.7:
+        print(random.choice(responses))
+    elif what_type_of_rarity >= 0.8 and what_type_of_rarity <= 1:
+        print(random.choice(rare_respones))
+    elif what_type_of_rarity > 0.7 and what_type_of_rarity < 0.8 :
+        print(random.choice(really_rare_respones))
 
     # TODO: Step B: Use your 'random_index' to grab the matching answer 
     #       out of your 'responses' list.

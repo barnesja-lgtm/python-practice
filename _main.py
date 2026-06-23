@@ -31,9 +31,30 @@ while guess != 'secret' :
     print("Checking password is a match...")
 input("welcome")"""
 
-user_input = input()
+"""user_input = input()
 try:
     num = int(user_input)
     print (f'You picked {num}')
 except:
-    print(f'{user_input} is not a number')
+    print(f'{user_input} is not a number') """
+
+def calculate_area(x, y):
+    print(f"Area : {x * y}")
+
+calculate_area(2, 5)
+
+def repeat_message(message, times):
+    for i in range(times):
+        print(message)
+
+repeat_message("Hello", 5)
+
+def check_play():
+    play = input("Do you want to play again")
+    if play.lower() in ["y", "yes"]:
+        return True
+    else:
+        return False
+
+check_play()
+

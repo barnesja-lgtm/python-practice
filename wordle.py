@@ -14,11 +14,11 @@ words = ["bacon","penis","radio","craic","azure","vinyl"]
 # TODO Tell your user how to play wordle (make sure they know they must input 5 letter words)
 print("hello weclome to wordle to play ")
 # MAIN
-run = true
+run = True
 # TODO Create a while loop that runs if play is true
-while run == true :
+while run == True :
     # TODO Create word variable and store a random word from your list (using random.choice)
-
+    selected_word = random.choice(words)
     # USER INPUT
     # TODO Get user's first guess and save it into a variable
     # TODO Create a while loop if the guess is not 5 characters long

@@ -39,7 +39,7 @@ while firstanswer != 0:
                         thirdanswer = 0
                         while fourthanswer != 0 :
                             #the fourth question
-                            print("fourth: Astronomers calculated the average color of all the light in the universe. They call this beige/off-white hue:\nA: cosmic latte\nB: univeral swirl\nC: blue")
+                            print("fourth: Astronomers calculated the average color of all the light in the universe. They call this beige/off-white hue:\nA: cosmic latte\nB: universal swirl\nC: blue")
                             fourthanswer = input("Answer: ").upper().strip()
                             if fourthanswer in ["A","COSMICLATTE"] :
                                 print("correct")
@@ -48,7 +48,7 @@ while firstanswer != 0:
                                     #the fifth question
                                     print("fifth: there are more trees than stars. Counterintuitively, there are an estimated 3 trillion trees on Earth, while there are only about _______ to ________ billion stars in the entirety of the Milky Way galaxy. what are the missing numbers?\nA: 50 to 75 \nB: 500 to 800 \nC: 100 to 400")
                                     fifthanswer = input("Answer: ").upper().strip()
-                                    if fifthanswer in ["C","100TO400"]:
+                                    if fifthanswer in ["C","100TO400","100400","!))TO$))","!))$))"]:
                                         print("correct")
                                         fifthanswer = 0
                                         finalscore()

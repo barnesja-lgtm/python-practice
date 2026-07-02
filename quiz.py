@@ -47,8 +47,8 @@ while firstanswer != 0:
                                 while fifthanswer != 0 :
                                     #the fifth question
                                     print("fifth: there are more trees than stars. Counterintuitively, there are an estimated 3 trillion trees on Earth, while there are only about _______ to ________ billion stars in the entirety of the Milky Way galaxy. what are the missing numbers?\nA: 50 to 75 \nB: 500 to 800 \nC: 100 to 400")
-                                    fifthanswer = input("Answer: ").upper().strip()
-                                    if fifthanswer in ["C","100TO400","100400","!))TO$))","!))$))"]:
+                                    fifthanswer = input("Answer: ").lower().strip()
+                                    if fifthanswer in ["c","100to400","100400","!))TO$))","!))$))","100 to 400"]:
                                         print("correct")
                                         fifthanswer = 0
                                         finalscore()

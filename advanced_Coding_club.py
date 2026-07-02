@@ -1,5 +1,16 @@
-lives = 10
-word = ["penis"]
-name = "_ _ _ _ _"
-name[0] = "a"
-input("guess a letter!")
+import keyboard
+
+eRelease = True
+while True:
+    if keyboard.is_pressed("e") and eRelease:
+        print("Yellow")
+        eRelease = False
+
+    elif not keyboard.is_pressed("e"):
+        eRelease = True
+
+
+
+
+
+
